@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import { Center, useTexture } from "@react-three/drei";
 import gsap from "gsap";
-import { useCallback, useRef } from "react";
+import { useCallback, useEffect, useRef } from "react";
 
 const Rings = ({ position }) => {
   const refList = useRef([]);
@@ -13,35 +13,30 @@ const Rings = ({ position }) => {
 
   const texture = useTexture("textures/rings.png");
 
-  useGSAP(
-    () => {
-      if (refList.current.length === 0) return;
+  useEffect(() => {
+    if (refList.current.length === 0) return;
 
-      refList.current.forEach((r) => {
-        r.position.set(position[0], position[1], position[2]);
-      });
+    refList.current.forEach((r) => {
+      r.position.set(position[0], position[1], position[2]);
+    });
 
-      gsap
-        .timeline({
-          repeat: -1,
-          repeatDelay: 0.5,
-        })
-        .to(
-          refList.current.map((r) => r.rotation),
-          {
-            y: `+=${Math.PI * 2}`,
-            x: `-=${Math.PI * 2}`,
-            duration: 2.5,
-            stagger: {
-              each: 0.15,
-            },
-          }
-        );
-    },
-    {
-      dependencies: position,
-    }
-  );
+    const t1 = gsap.timeline({
+      repeat: -1,
+      repeatDelay: 0.5,
+    });
+    t1.to(
+      refList.current.map((r) => r.rotation),
+      {
+        y: `+=${Math.PI * 2}`,
+        x: `-=${Math.PI * 2}`,
+        duration: 2.5,
+        stagger: {
+          each: 0.15,
+        },
+      }
+    );
+    return () => t1.kill();
+  }, [position]);
 
   return (
     <group scale={0.5}>
