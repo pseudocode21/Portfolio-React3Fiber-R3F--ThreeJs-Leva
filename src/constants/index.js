@@ -56,17 +56,51 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "DolphinAI - Multi-Modal AI Image Generation Suite",
+    desc: "DolphinAI is an advanced AI-powered platform featuring three distinct generation modes: text-to-image synthesis using Stable Diffusion XL, voice-enabled image creation with Web Speech API, and intelligent image captioning powered by Salesforce BLIP. It demonstrates seamless integration of multiple AI models in a production-ready web application.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Built with modern vanilla JavaScript and integrated with Hugging Face Inference API, DolphinAI showcases advanced features including real-time speech recognition, drag-and-drop file uploads, customizable generation parameters (resolution, batch size, creativity), dark/light theme switching, and user authentication with persistent sessions.",
+    href: "https://pseudocode21.github.io/DolphinAi---Text-to-Image-and-vice-versa/",
+    // texture: "/textures/project/dolphinAI-demo-video.mp4",
     texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+    logo: "/assets/dolphinAI.png",
     logoStyle: {
-      backgroundColor: "#2A1816",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D",
+      backgroundColor: "#1c2e38",
+      border: "0.2px solid #091319",
+      boxShadow: "0px 0px 60px 0px #3c4e57",
+    },
+    spotlight: "/assets/spotlight2.png",
+    tags: [
+      {
+        id: 1,
+        name: "JavaScript ",
+        path: "/assets/javascript.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "assets/css.svg",
+      },
+      {
+        id: 3,
+        name: "HTML",
+        path: "/assets/html.svg",
+      },
+    ],
+  },
+  {
+    title: "Employee Task Management System",
+    desc: "A comprehensive task management platform that revolutionizes workplace productivity through role-based dashboards. As a modern task tracking solution, it enables administrators to create and assign tasks while employees manage their workload with real-time status updates and persistent data storage.",
+    subdesc:
+      "With this system, organizations can streamline task delegation and tracking, where admins assign work and employees update progress in real-time without data loss, built using React.js, Context API, and LocalStorage for seamless state management.",
+    href: "https://employee-mangagement-system.vercel.app/",
+    // Add your deployed link
+    texture: "/textures/project/project2.mp4", // Add your demo video
+    logo: "/assets/employee-logo.png", // Add your logo
+    logoStyle: {
+      backgroundColor: "#10B981",
+      border: "0.2px solid #059669",
+      boxShadow: "0px 0px 60px 0px #10B9814D",
     },
     spotlight: "/assets/spotlight1.png",
     tags: [
@@ -78,54 +112,7 @@ export const myProjects = [
       {
         id: 2,
         name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
-    subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time withou lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
-    logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
-    },
-    spotlight: "/assets/spotlight2.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        path: "/assets/tailwindcss.png",
       },
     ],
   },
