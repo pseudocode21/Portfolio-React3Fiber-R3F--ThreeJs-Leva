@@ -34,11 +34,11 @@ const About = () => {
             <img
               src="/assets/grid2.png"
               alt="grid-2"
-              className="w-full sm:w-[276px] mx-auto h-fit object-contain"
+              className="w-full sm:w-[276px] mx-auto h-fit object-contain rotate-img "
             />
             <div>
-              <p className="grid-headtext">Tech Stack</p>
-              <p className="grid-subtext">
+              <p className="grid-headtext ">Tech Stack</p>
+              <p className="grid-subtext ">
                 {" "}
                 I specialize in <strong>C++</strong>, <strong>Java</strong>,{" "}
                 <strong>JavaScript</strong>, <strong>React</strong>, and{" "}

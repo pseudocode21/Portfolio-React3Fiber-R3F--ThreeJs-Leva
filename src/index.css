@@ -486,14 +486,17 @@ body {
   line-height: 1.75rem;
   color: white;
   gap: 0.75rem;
+  cursor: pointer;
 }
-
+.field-btn:hover {
+  background-color: #25252a;
+}
 .field-btn_arrow {
   width: 0.625rem;
   height: 0.625rem;
   object-fit: contain;
   filter: invert(1);
-  filter: brightness(0);
+  filter: brightness(100);
 }
 
 .social-icon {

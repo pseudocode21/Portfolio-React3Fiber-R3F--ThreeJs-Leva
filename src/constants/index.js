@@ -274,35 +274,33 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
   };
 };
 
-export const workExperiences = [
+export const educationDetails = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
-    title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+    name: "Lovely Professional University",
+    pos: "Phagwara, Punjab",
+    duration: "2023 - 2025",
+    course: "Master of Computer Applications (MCA)",
+    icon: "https://yt3.ggpht.com/a/AGF-l79xn2oqRrSOOCsFbkMg7RVgNEUWMNLrNw02dw=s900-c-k-c0xffffffff-no-rj-mo",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
-    title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+    name: "Feroz Gandhi College",
+    pos: "RaeBareli, Uttar Pradesh",
+    duration: "2019 - 2022",
+    course:
+      "Bachelor of Science (B.Sc.) in Physics, Chemistry, and Mathematics",
+    icon: "https://csjmu.ac.in/wp-content/uploads/2021/12/csjm-university-logo-big.png",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
-    title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+    name: "Kendriya Vidyalaya RaeBareli",
+    pos: "RaeBareli, Uttar Pradesh",
+    duration: "2018 - 2019",
+    course: "Senior Secondary (12th Grade) in Science (Non-Medical)",
+    icon: "https://cdn.pnggallery.com/wp-content/uploads/kendriya-vidyalaya-sangathan-logo-01.png",
     animation: "salute",
   },
 ];
