@@ -11,7 +11,7 @@ A cutting-edge, immersive 3D portfolio website built with modern web technologie
 
 ## 🌟 Live Demo
 
-[🔗 View Live Portfolio](https://your-deployed-url.com) _(Update with your deployment URL)_
+[🔗 View Live Portfolio](https://my-portfolio-gaurav-yadavs-projects-fc7d13e8.vercel.app/)
 
 ## ✨ Key Features
 
@@ -70,12 +70,6 @@ A cutting-edge, immersive 3D portfolio website built with modern web technologie
 - **React Responsive** - Responsive design utilities
 - **Leva** - Development GUI controls
 - **React DOM 19.1.1** - React DOM rendering
-
-### Development Tools
-
-- **ESLint 9.36.0** - Code linting and formatting
-- **@vitejs/plugin-react** - Vite React plugin
-- **@types/react** & **@types/react-dom** - TypeScript definitions
 
 ## 📁 Project Architecture
 
@@ -295,10 +289,6 @@ npm run build
 - Test on multiple screen sizes
 - Optimize 3D assets for web
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **3D Models**: Custom-designed assets optimized for web
@@ -306,14 +296,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Icons**: Tech stack icons from various sources
 - **Fonts**: "General Sans" from CDN Fonts
 
-## 📞 Contact
-
 **Gaurav Singh**
-
 - **Email**: singhgaurav.y@gmail.com
-- **Location**: Uttar Pradesh, India
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+
 
 ---
 
