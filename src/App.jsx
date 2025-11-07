@@ -11,15 +11,12 @@ const App = () => {
   return (
     <main className="max-w-7xl mx-auto">
       <Navbar />
-<<<<<<< HEAD
       <Hero />
       <About />
       <Projects />
-=======
       <Hero /> 
        <About /> 
        <Projects />
->>>>>>> 118552be97ff037e3f6276b1989da1e4244355c8
       <Education />
       <Contact />
       <Footer />
