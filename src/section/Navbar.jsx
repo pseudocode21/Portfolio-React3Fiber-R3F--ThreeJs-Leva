@@ -10,6 +10,15 @@ const NavItems = () => {
           </a>
         </li>
       ))}
+      <li className="nav-li">
+        <a
+          href="/MYCVUpdated.pdf"
+          download="Gaurav_Singh_Yadav_Resume.pdf"
+          className="nav-li_a hover:text-blue-400"
+        >
+          Resume
+        </a>
+      </li>
     </ul>
   );
 };

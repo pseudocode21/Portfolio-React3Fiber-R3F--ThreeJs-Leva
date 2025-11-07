@@ -62,6 +62,7 @@ const Hero = () => {
     <section
       className="min-h-screen w-full flex flex-col relative 
     "
+      id="home"
     >
       <div className="w-full mx-auto flex flex-col sm:mt-30 mt-17 c-space gap-3 ">
         <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans">
